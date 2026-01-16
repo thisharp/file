@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
 		<meta charset="UTF-8">
@@ -9,20 +9,20 @@
 		<meta name="keywords" content="{{ &keyWords }}" />
 		<meta name="description" content="{{ &OPT.siteDescription }}" />
 
-		<link rel='stylesheet' id='stylesheet-css' href='{{ &gitpath }}themes/JustNews/files/main.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='font-awesome-css' href='{{ &gitpath }}themes/JustNews/files/font-awesome.css?ver=6.1.2' type='text/css' media='all' />
-		<link rel='stylesheet' id='wp-block-library-css' href='{{ &gitpath }}themes/WordPress/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
-		<link rel='stylesheet' id='wp-components-css' href='{{ &gitpath }}themes/WordPress/components/style.min.css?ver=5.6' type='text/css' media='all' />
-		<link rel='stylesheet' id='wp-editor-font-css' href='{{ &gitpath }}themes/geekzu/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.6' type='text/css' media='all' />
-		<link rel='stylesheet' id='wp-block-editor-css' href='{{ &gitpath }}themes/WordPress/block-editor/style.min.css?ver=5.6' type='text/css' media='all' />
-		<link rel='stylesheet' id='wp-nux-css' href='{{ &gitpath }}themes/WordPress/nux/style.min.css?ver=5.6' type='text/css' media='all' />
-		<link rel='stylesheet' id='wp-editor-css' href='{{ &gitpath }}themes/WordPress/editor/style.min.css?ver=5.6' type='text/css' media='all' />
-		<link rel='stylesheet' id='mux_video_block_style-css' href='{{ &gitpath }}themes/WordPress/plugins/ilab-media-tools/mediacloud-mux.blocks.style.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='stylesheet-css' href='{{ &OPT.gitpath }}themes/JustNews/files/main.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome-css' href='{{ &OPT.gitpath }}themes/JustNews/files/font-awesome.css?ver=6.1.2' type='text/css' media='all' />
+		<link rel='stylesheet' id='wp-block-library-css' href='{{ &OPT.gitpath }}themes/WordPress/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='wp-components-css' href='{{ &OPT.gitpath }}themes/WordPress/components/style.min.css?ver=5.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='wp-editor-font-css' href='{{ &OPT.gitpath }}themes/geekzu/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='wp-block-editor-css' href='{{ &OPT.gitpath }}themes/WordPress/block-editor/style.min.css?ver=5.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='wp-nux-css' href='{{ &OPT.gitpath }}themes/WordPress/nux/style.min.css?ver=5.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='wp-editor-css' href='{{ &OPT.gitpath }}themes/WordPress/editor/style.min.css?ver=5.6' type='text/css' media='all' />
+		<link rel='stylesheet' id='mux_video_block_style-css' href='{{ &OPT.gitpath }}themes/WordPress/plugins/ilab-media-tools/mediacloud-mux.blocks.style.min.css' type='text/css' media='all' />
 
-		<link rel='stylesheet' id='emojify-css' href='{{ &gitpath }}themes/emojify/emojify.min.css?ver=1.1.0' type='text/css' media='all' />
-		<script type='text/javascript' src='{{ &gitpath }}themes/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/assets/fonts/icons-2.6.4.js?ver=6.1.2' id='wpcom-icons-js'></script>
+		<link rel='stylesheet' id='emojify-css' href='{{ &OPT.gitpath }}themes/emojify/emojify.min.css?ver=1.1.0' type='text/css' media='all' />
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/assets/fonts/icons-2.6.4.js?ver=6.1.2' id='wpcom-icons-js'></script>
 
 		{{ &OPT.codeBeforHead }}
 	</head>
@@ -41,7 +41,7 @@
 						{{ /OPT.logo }}
 						
 						{{ ^OPT.logo }}
-						<a href="/" rel="home"><img src="{{ &gitpath }}themes/JustNews/files/logo2.png" alt="请自定义OPT.logo"></a>
+						<a href="/" rel="home"><img src="{{ &OPT.gitpath }}themes/JustNews/files/logo2.png" alt="请自定义OPT.logo"></a>
 						{{ /OPT.logo }}
 					</div>
 				</div>
@@ -206,12 +206,12 @@
 				</i>
 			</div>
 		</div>
-		<link rel='stylesheet' id='lazyload-spinner-css' href='{{ &gitpath }}themes/JustNews/files/lazyload.css?ver=3.4.9' type='text/css' media='all' />
+		<link rel='stylesheet' id='lazyload-spinner-css' href='{{ &OPT.gitpath }}themes/JustNews/files/lazyload.css?ver=3.4.9' type='text/css' media='all' />
 		<script type='text/javascript' id='main-js-extra'>/* <![CDATA[ */
 			var _wpcom_js = {
 				"webp": "",
 				"ajaxurl": "",
-				"theme_url": "{{ &gitpath }}themes/JustNews/",
+				"theme_url": "{{ &OPT.gitpath }}themes/JustNews/",
 				"slide_speed": "5000",
 				"user_card_height": "356",
 				"video_height": "482",
@@ -238,14 +238,14 @@
 			};
 			/* ]]> */
 			</script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/JustNews/files/main.js?ver=6.1.2' id='main-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/wp-includes/clipboard.min.js?ver=5.6' id='clipboard-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/emojify/emojify.min.js?ver=1.1.0' id='emojify-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/JustNews/files/wp-embed.js?ver=6.1.2' id='wp-embed-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/JustNews/files/lazySizesConfig.js?ver=3.4.9' id='lazysizes-config-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/lazysizes/ls.unveilhooks.min.js?ver=5.6' id='unveilhooks-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/lazysizes/ls.bgset.min.js?ver=5.6' id='bgset-js'></script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/lazysizes/lazysizes.min.js?ver=5.6' id='lazysizes-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/JustNews/files/main.js?ver=6.1.2' id='main-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/wp-includes/clipboard.min.js?ver=5.6' id='clipboard-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/emojify/emojify.min.js?ver=1.1.0' id='emojify-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/JustNews/files/wp-embed.js?ver=6.1.2' id='wp-embed-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/JustNews/files/lazySizesConfig.js?ver=3.4.9' id='lazysizes-config-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/lazysizes/ls.unveilhooks.min.js?ver=5.6' id='unveilhooks-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/lazysizes/ls.bgset.min.js?ver=5.6' id='bgset-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/lazysizes/lazysizes.min.js?ver=5.6' id='lazysizes-js'></script>
 		<script type='text/javascript' id='fifu-image-js-js-extra'>/* <![CDATA[ */
 			var fifuImageVars = {
 				"fifu_lazy": "1",
@@ -258,7 +258,7 @@
 			};
 			/* ]]> */
 			</script>
-		<script type='text/javascript' src='{{ &gitpath }}themes/JustNews/files/image.js?ver=3.4.9' id='fifu-image-js-js'></script>
+		<script type='text/javascript' src='{{ &OPT.gitpath }}themes/JustNews/files/image.js?ver=3.4.9' id='fifu-image-js-js'></script>
 
 		<script id="module-clipboard">(function($) {
 				$(function() {
